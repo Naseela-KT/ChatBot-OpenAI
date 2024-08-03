@@ -12,21 +12,17 @@ const Chat = () => {
     e.preventDefault();
     if (input.trim() === "") return;
 
-    // Add the user's message to the messages state
     setMessages((prevMessages) => [
       ...prevMessages,
       { text: input, type: "sent" },
     ]);
 
-    // Clear the input field
     setInput("");
 
-    // Get the response from OpenAI API
     try {
       const aiResponse = await getOpenAIResponse(input);
       const aiMessage = aiResponse.data.choices[0].message.content;
 
-      // Add the AI's response to the messages state
       setMessages((prevMessages) => [
         ...prevMessages,
         { text: aiMessage, type: "received" },
