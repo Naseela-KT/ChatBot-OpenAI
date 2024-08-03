@@ -1,16 +1,16 @@
-
-import './App.css'
-import Chat from './components/Chat'
+import "./App.css";
+import Chat from "./components/Chat";
+import Navbar from "./components/Navbar";
 
 function App() {
-
-
   return (
     <>
-      <h1 className=' text-white'>Vite + React</h1>
-      <Chat/>
+      <div className="h-screen flex flex-col">
+        <Navbar />
+        <Chat />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

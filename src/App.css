@@ -1,4 +1,8 @@
 body{
     background: linear-gradient(to bottom, #060219, #232542);
-    min-height: 100vh;
+    
 }
+.font-size-1rem {
+    font-size: 14px;
+  }
+  
