@@ -1,6 +1,6 @@
 body{
     background: linear-gradient(to bottom, #060219, #232542);
-    
+    height:fit-content
 }
 .font-size-1rem {
     font-size: 14px;

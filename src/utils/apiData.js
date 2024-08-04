@@ -1,0 +1,32 @@
+export const mockdata=[
+    {
+        "id": "01sq0zrlpRJEOv32jazqRaRL5a_cgeIFKy9ylDdJtao__i-0cfa7f4d986bcae32",
+        "fo_account_id": "92",
+        "aws_account_id": "428386112705",
+        "aws_account_name": "WEX BE Prod",
+        "name": "Low Utilization Amazon EC2 Instances",
+        "resource_id": "i-0cfa7f4d986bcae32",
+        "resource_type": "Amazon EC2",
+        "region": "us-east-1c",
+        "flagged_resources": "{\"Region\\/AZ\":\"us-east-1c\",\"Instance ID\":\"i-0cfa7f4d986bcae32\",\"Instance Name\":\"mbe-db-p03\",\"Instance Type\":\"r5d.8xlarge\",\"Estimated Monthly Savings\":\"$1059.84\",\"Day 1\":\"2.0%  1.25MB\",\"Day 2\":\"2.0%  1.17MB\",\"Day 3\":\"2.0%  1.16MB\",\"Day 4\":\"2.0%  1.17MB\",\"Day 5\":\"2.0%  1.17MB\",\"Day 6\":\"2.0%  1.19MB\",\"Day 7\":\"2.0%  1.19MB\",\"Day 8\":\"2.0%  1.17MB\",\"Day 9\":\"2.0%  1.16MB\",\"Day 10\":\"2.0%  1.17MB\",\"Day 11\":\"2.0%  1.15MB\",\"Day 12\":\"2.0%  1.16MB\",\"Day 13\":\"2.1%  1.46MB\",\"Day 14\":\"2.0%  1.15MB\",\"14-Day Average CPU Utilization\":\"2.0%\",\"14-Day Average Network I\\/O\":\"1.19MB\",\"Number of Days Low Utilization\":\"14 days\"}",
+        "potential_savings": "4745",
+        "finding": "OVER_PROVISIONED",
+        "bu_id": "61",
+        "hierarchy_level": "2",
+        "business_unit_name": "Benefit Express",
+        "parent_name": "Health",
+        "root_parent_name": "Health",
+        "ticket_id": "1",
+        "ticket_status": "Work in progress",
+        "ticket_url": "https://cloud-finops.atlassian.net/browse/KEYBASIC-237",
+        "current_cost": "5110.6758557677",
+        "outdated": null,
+        "recommendation_status": null,
+        "resume_date": null,
+        "environment": null,
+        "created_date": "2024-07-13",
+        "created_date_time": "2024-07-13 20:55:43.157000000",
+        "updated_date": "2024-07-13",
+        "updated_date_time": "2024-07-13 20:55:43.157000000"
+    }
+]
